@@ -1,6 +1,5 @@
 import React from "react";
 import svgCardOne from "../scss/images/Group 13.svg";
-// import "../scss/Main.scss";
 
 const Main = () => {
   return (

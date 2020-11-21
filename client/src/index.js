@@ -1,13 +1,12 @@
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import $ from "jquery";
-// import Popper from "popper.js";
-// import "bootstrap/dist/js/bootstrap.bundle.min";
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "./assets/scss/mdb-free.scss";
+import "./index.scss";
 
 ReactDOM.render(
   <React.StrictMode>

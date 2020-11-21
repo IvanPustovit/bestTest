@@ -18,10 +18,12 @@ const Header = () => {
           Our design projects are fresh and simple and will benefit your
           business greatly. Learn more about our work!
         </p>
-        <button className="items-button">Views Stats</button>
+        <form action="/stats">
+          <button className="items-button">Views Stats</button>
+        </form>
       </div>
       <div>
-        <img src={phone} />
+        <img src={phone} alt="phone" />
       </div>
     </div>
   );
